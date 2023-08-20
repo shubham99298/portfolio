@@ -238,6 +238,7 @@ h2{
     margin-top: 40px;
     /* text-align: center; */
     margin-left: 70px;
+     
     
 
 }
@@ -246,7 +247,9 @@ h2{
     margin-bottom: 20px;
 }
 .skills img{
-    margin: 0 5px;
+    
+    margin: 0 5px ;
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -328,7 +331,7 @@ h2{
    .contact form{
     width: 50%;
    }
-   
+
    
     /* footer{
     display: none;
