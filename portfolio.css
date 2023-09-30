@@ -246,12 +246,30 @@ h2{
     font-size: 20px;
     margin-bottom: 20px;
 }
-.skills img{
-    
-    margin: 0 5px ;
 
-}
 
+.about__skill {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    list-style: none;
+  
+    background: #eee;
+    color: #666;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .about__skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about__skills li:hover{
+    color: white;
+    background-color: rgb(17, 6, 28);
+  }
 @media screen and (max-width: 1400px) {
   body{
     min-width: fit-content;
